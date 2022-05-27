@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel="icon" href="/assets/img/descargar.jpg">
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mi pagina HTMl5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1 class="titulo__1">Bienvenido a mi Formulario de prueba</h1>
+    <div class="nav__div">
+        <nav>
+            <ul>
+                <li><a href="#Contact">Contacto</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+                <li><a href="index.html">Home</a></li>
+
+
+            </ul>
+        </nav>
+  
+    </div>
+
+    <form>
+        <p>Nombre completo: <input type="text" name="nombre" size="40"></p>
+        <p>Año de nacimiento: <input type="date" name="fechanacimiento" size="20" min="1900"></p>
+        <p>Correo : <input type="email" id="email" required></p>
+        <p>Contraseña : <input type="password" id="password" required minlength="6"></p>
+        <p>Indique el nivel de satisfaccion con el Formulario(Regular,Bueno,Buenardo):
+        <input type="range" name="rango"
+         min="5" max="15" step="5">
+         
+        </p>
+        <p> <label for="archivo"><strong>Suba un formulario mejor:</strong></label> <br/>
+            <input type="file" id="formulario" name="formulario">
+        </p>
+        <br>
+        <button> Enviar</button>
+      <input type="reset" value="Borrar">
+    </form>
+    <footer>
+		<h3 id="#Contact">
+		<p><b>Seguinos en nuestras redes</b></p>
+		<a href="https://www.facebook.com" target="_BLANK">Facebook</a> 
+		</h3>
+	<img src="assets/img/bye-adios.gif">
+
+	</footer>
+    </body>
+    </html>
